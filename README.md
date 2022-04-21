@@ -17,8 +17,7 @@ pip install -r requirements.txt
 ## Data Preprocessing
 The dataset to be used for this model needs to be preprocessed before feeding it to the model. To do the same we provide a `dataprocess/bio2spannerformat.py`. First, you need to download datasets, and then convert them into BIO2 tagging format. We have used the switchboard dataset. Note that we use the dependency head index to incorporate the structured information.
 ## How to Run?
-To run the experiment download and extract the pretrained model in the root directory, we use [BERT-Large](https://github.com/google-research/bert).
-Here, we give `dummy` as an example. You may need to change the `DATA_DIR`, `PRETRAINED`, `dataname`, `n_class` to your own dataset path, pre-trained model path, dataset name, and the number of labels in the dataset, respectively.
+To run the experiment download and extract the pretrained model in the root directory, we use [BERT-Large](https://github.com/google-research/bert). You may need to change the `DATA_DIR`, `PRETRAINED`, `dataname`, `n_class` to your own dataset path, pre-trained model path, dataset name, and the number of labels in the dataset, respectively.
 
 ```
 ./run.sh
