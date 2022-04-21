@@ -1,0 +1,131 @@
+[{
+    "context": "in 1841 , he established a production of whale oil .",
+    "heads": [
+      "5",
+      "1",
+      "5",
+      "5",
+      "0",
+      "7",
+      "5",
+      "7",
+      "10",
+      "8",
+      "5"
+    ],
+    "span_posLabel": {
+      "8;9": "PROD"
+    }
+  },
+  {
+    "context": "the stable had not had a foreigner since hakuba takeshi was forced to retire over match fixing allegations in 2011 .",
+    "heads": [
+      "2",
+      "5",
+      "5",
+      "5",
+      "0",
+      "7",
+      "5",
+      "12",
+      "10",
+      "12",
+      "12",
+      "5",
+      "14",
+      "12",
+      "14",
+      "18",
+      "15",
+      "17",
+      "14",
+      "19",
+      "5"
+    ],
+    "span_posLabel": {
+      "8;9": "PER"
+    }
+  },
+  {
+    "context": "the graphite layer as a natural refractory material material would rapidly cool the suspected molten uranium oxide without burn through .",
+    "heads": [
+      "3",
+      "3",
+      "12",
+      "3",
+      "9",
+      "9",
+      "9",
+      "9",
+      "4",
+      "12",
+      "12",
+      "0",
+      "17",
+      "17",
+      "17",
+      "17",
+      "12",
+      "12",
+      "18",
+      "19",
+      "12"
+    ],
+    "span_posLabel": {
+      "6;7": "PROD"
+    }
+  },
+  {
+    "context": "thunderdell is in the monster in my pocket where his number is # 98 .",
+    "heads": [
+      "2",
+      "0",
+      "2",
+      "5",
+      "3",
+      "5",
+      "8",
+      "6",
+      "14",
+      "11",
+      "14",
+      "14",
+      "14",
+      "8",
+      "2"
+    ],
+    "span_posLabel": {
+      "4;7": "CW"
+    }
+  },
+  {
+    "context": "parting gifts , ex watcher wesley wyndam-pryce arrives and aids the team with his extensive knowledge of demonology and the occult .",
+    "heads": [
+      "8",
+      "1",
+      "8",
+      "7",
+      "7",
+      "7",
+      "8",
+      "0",
+      "8",
+      "8",
+      "12",
+      "8",
+      "8",
+      "16",
+      "16",
+      "13",
+      "16",
+      "17",
+      "18",
+      "21",
+      "18",
+      "8"
+    ],
+    "span_posLabel": {
+      "0;1": "CW",
+      "5;6": "PER"
+    }
+  }]
