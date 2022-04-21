@@ -4,7 +4,7 @@ This repository contains the implementation of the paper: "[**Span Classificatio
 ##  Abstract
 Existing approaches in disfluency detection focus on solving a token-level classification task for identifying and removing disfluencies in text. Moreover, most works focus on leveraging only contextual information captured by the linear sequences in text, thus ignoring the structured information in text which is efficiently captured by dependency trees. In this paper, building on the span classification paradigm of entity recognition, we propose a novel architecture for detecting disfluencies in
 transcripts from spoken utterances, incorporating both contextual information through transformers and long-distance structured information captured by dependency trees, through graph convolutional networks (GCNs). Experimental results show that our proposed model achieves state-of-the-art results on the widely used English Switchboard for disfluency detection and outperforms prior-art by a significant margin.
-<img src='pic/model.png">
+![Alt text](pic/model.png?raw=true "Proposed Architecture")
 ****
 ## Requirements
 All the dependencies are mentioned in requirements.txt file and can be installed using the following command
