@@ -8,7 +8,7 @@ transcripts from spoken utterances, incorporating both contextual information th
 ****
 
 ## Proposed Model Architecture
-![Proposed Architecture :](assets/model.png)
+<img src="assets/model.png" width="100" height="100">
 ****
 
 ## Requirements
