@@ -8,8 +8,8 @@ transcripts from spoken utterances, incorporating both contextual information th
 ****
 
 ## Proposed Model Architecture
-<img src="assets/model.png" width="100" height="100">
-****
+<img src="assets/model.png" width="400" height="400">
+
 
 ## Requirements
 All the dependencies are mentioned in requirements.txt file and can be installed using the following command:  
