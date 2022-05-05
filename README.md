@@ -9,7 +9,9 @@ transcripts from spoken utterances, incorporating both contextual information th
 
 ## Proposed Model Architecture
 
-<img src="assets/model.png" width="400" height="600" align="center">
+<p align="center">
+<img src="assets/model.png">
+</p>
 
 ## Requirements
 All the dependencies are mentioned in requirements.txt file and can be installed using the following command:  
@@ -19,23 +21,23 @@ pip install -r requirements.txt
 ```
 ****
 ### Data
-For Data related information please refere the information provided in the `data` directory.
+For Data related information please refer the information provided in the `data` directory.
 
 ### Data Preprocessing
 The dataset to be used for this model needs to be preprocessed before feeding it to the model. To do the same we provide a `dataprocess/bio2spannerformat.py`. First, you need to download datasets, and then convert them into BIO2 tagging format. We have used the switchboard dataset. Note that we use the dependency head index to incorporate the structured information. The data format can be understood by the `dummy` data provided in the `data` directory. `english_bio` is the data in the BIO2 format while `english` is the preprocessed data.  
 
 ### How to Run?
-To run the experiment download and extract the pretrained model in the root directory. For our experiments we use the [BERT Large Architecture](https://github.com/google-research/bert). You may need to change the `DATA_DIR`, `PRETRAINED`, `dataname`, `n_class` to your own dataset path, pre-trained model path, dataset name, and the number of labels in the dataset, respectively.
+To run the experiment download and extract the pretrained model in the root directory. For our experiments we use the [BERT-Large Architecture](https://github.com/google-research/bert). You may need to change the `DATA_DIR`, `PRETRAINED`, `dataname`, `n_class` to your own dataset path, pre-trained model path, dataset name, and the number of labels in the dataset, respectively.
 `Note: We provide a dummy dataset in the data directory, as Switchboard dataset that we have used is not an opensource dataset. The dummy data is not a part of the switchboard dataset.`
 
 ```
 ./run.sh
 ```
-`Pretrained models can be downloaded from this [**link**](https://drive.google.com/)`
+Pretrained models can be downloaded from this [**link**](https://drive.google.com/)
 
-For running the token classification task use the `flair_train.py` by using the following command:
-
+For running the token classification task use the `flair_train.py` by using the following command. 
 ```
 python flair_train.py --input input --output output --gpu cuda:1
 ```
+The input data must be in BIO or IO format in the `input` directory to run this task.
 
