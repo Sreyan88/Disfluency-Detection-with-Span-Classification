@@ -92,3 +92,6 @@ def calculate_score(gold_file, pred_file):
             )
 
     print(classification_report_dict)
+    
+    
+calculate_score(gold_file, pred_file)
