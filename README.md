@@ -9,9 +9,7 @@ transcripts from spoken utterances, incorporating both contextual information th
 
 ## Proposed Model Architecture
 
-<p align="center">
-<img src="assets/model.png" width="400" height="600">
-</p>
+<img src="assets/model.png" width="400" height="600" align="center">
 
 ## Requirements
 All the dependencies are mentioned in requirements.txt file and can be installed using the following command:  
@@ -20,6 +18,8 @@ All the dependencies are mentioned in requirements.txt file and can be installed
 pip install -r requirements.txt
 ```
 ****
+### Data
+For Data related information please refere the information provided in the `data` directory.
 
 ### Data Preprocessing
 The dataset to be used for this model needs to be preprocessed before feeding it to the model. To do the same we provide a `dataprocess/bio2spannerformat.py`. First, you need to download datasets, and then convert them into BIO2 tagging format. We have used the switchboard dataset. Note that we use the dependency head index to incorporate the structured information. The data format can be understood by the `dummy` data provided in the `data` directory. `english_bio` is the data in the BIO2 format while `english` is the preprocessed data.  
@@ -31,3 +31,11 @@ To run the experiment download and extract the pretrained model in the root dire
 ```
 ./run.sh
 ```
+`Pretrained models can be downloaded from this [**link**](https://drive.google.com/)`
+
+For running the token classification task use the `flair_train.py` by using the following command:
+
+```
+python flair_train.py --input input --output output --gpu cuda:1
+```
+
