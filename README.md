@@ -41,3 +41,4 @@ python flair_train.py --input input --output output --gpu cuda:1
 ```
 The input data must be in BIO or IO format in the `input` directory to run this task.
 
+Our code is inspired by [**SpanNER**](https://github.com/neulab/SpanNER) and [**SynLSTM-for-NER**](https://github.com/xuuuluuu/SynLSTM-for-NER)
