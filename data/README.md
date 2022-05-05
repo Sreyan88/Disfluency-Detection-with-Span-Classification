@@ -1,5 +1,9 @@
 ## Switchboard reannotated dataset
 
+We use the `Prepare_switchboard.ipynb` to preprocess the switchboard dataset and bring it to our required format. 
+
+Dataset Description:
+
 The columns in the data correspond to:<br>
 sentence -            list of words for each sentence in Penn Treebank <br>
 ms\_sentence -      list of words for each sentence in Ms-State transcript <br>
