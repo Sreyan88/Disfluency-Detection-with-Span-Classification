@@ -115,13 +115,10 @@ class BertNER(BertPreTrainedModel):
             AxW = AxW / denom
             graph_output = torch.relu(AxW)
 
-        # visual gate
+        # gate
         merge_bert_graph = torch.cat((sequence_heatmap, graph_output), dim=-1)
         gate_value = torch.sigmoid(self.gate(merge_bert_graph)) 
         gated_converted = torch.mul(gate_value, graph_output)
-        reverse_gate_value = torch.neg(gate_value).add(1)
-        gated_converted = torch.add(torch.mul(reverse_gate_value, sequence_heatmap),
-                                        torch.mul(gate_value, graph_output))
         sequence_heatmap = torch.cat((sequence_heatmap, gated_converted), 2)
 
         # print(sequence_heatmap.shape)
