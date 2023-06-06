@@ -33,7 +33,7 @@ To run the experiment download and extract the pretrained model in the root dire
 ```
 ./run.sh
 ```
-Pretrained models can be downloaded from this [**link**](https://drive.google.com/file/d/1C4NpUyRNj-uSNl5PZTKlb1Lrqu-Uy7Y6/view?usp=share_link)
+Pretrained models can be downloaded from this [**link**]([https://drive.google.com/file/d/1C4NpUyRNj-uSNl5PZTKlb1Lrqu-Uy7Y6/view?usp=share_link](https://drive.google.com/file/d/1jb30JrqxYA7hWS0nk6_N9pR1X1WO7qha/view?usp=sharing))
 
 For running the token classification task use the `flair_train.py` by using the following command. 
 ```
